@@ -76,6 +76,7 @@ body{
     text-decoration: none;
     text-transform: none;
     padding:20px 10px;
+    cursor: pointer;
 }
 
 .library .library__button .fa{
@@ -84,6 +85,7 @@ body{
     color:#b3b3b3;
     margin-right: 10px;
     padding-right:8px;
+
 }
 
 .library .library__content .fa-plus{
@@ -139,6 +141,7 @@ body{
     margin-top: 12px;
     border:0;
     width: 113px;
+    cursor: pointer;
 }
 
 .sidebar .cookies{
@@ -168,4 +171,47 @@ body{
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.seja-premium{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 40px;
+}
+
+.seja-premium .text{
+    color: #FFF;
+    font-family: "DM Sans", sans-serif;
+   
+    
+}
+
+.seja-premium .seja-premium__title{
+
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.seja-premium .seja-premium__subitle{
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.seja-premium .button{
+
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 14px 30px;
+    border: 0;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+
 }
